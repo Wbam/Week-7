@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: medic_info_raw_source
+    schema: public    # The schema where the raw data table exists
+    tables:
+      - name: medic_info_raw    # The name of the raw table in your database
+
+
